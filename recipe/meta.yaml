@@ -1,4 +1,4 @@
-{% set version = '3.0' %}
+{% set version = "3.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/NbClust_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/NbClust/NbClust_{{ version }}.tar.gz
-  sha256: 6cf041a7a22661b59eb9eddbee71c5c80214438ccfba8a6f6bc152e33f228bef
+  sha256: 1a9b0e89156fb98ce486f033cb845a6550bfbff80fb22e8c0df791fe3ec9b04c
 
 build:
   noarch: generic
-  merge_build_host: True  # [win]
-  number: 1002
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -36,10 +36,9 @@ test:
 about:
   home: https://sites.google.com/site/malikacharrad/research/nbclust-package
   license: GPL-2
-  summary: 'It provides 30 indexes for determining the optimal number of clusters in a data set
-    and offers the best clustering scheme from different results to the user. '
+  summary: 'It provides 30 indexes for determining the optimal number of clusters in a data set and offers the best clustering scheme from different results to the user. '
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
