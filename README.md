@@ -3,7 +3,7 @@ About r-nbclust
 
 Home: https://sites.google.com/site/malikacharrad/research/nbclust-package
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nbclust-feedstock/blob/main/LICENSE.txt)
 
