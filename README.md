@@ -1,11 +1,11 @@
-About r-nbclust
-===============
+About r-nbclust-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nbclust-feedstock/blob/main/LICENSE.txt)
 
 Home: https://sites.google.com/site/malikacharrad/research/nbclust-package
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nbclust-feedstock/blob/main/LICENSE.txt)
 
 Summary: It provides 30 indexes for determining the optimal number of clusters in a data set and offers the best clustering scheme from different results to the user. 
 
